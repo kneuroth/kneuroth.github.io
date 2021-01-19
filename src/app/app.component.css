@@ -6,7 +6,6 @@
 }
 
 .icon-link:hover {
-    opacity:60%;
     transform: translateY(-0.25rem);
 }
 
