@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Location } from '@angular/common'; 
+import { Router } from "@angular/router";
 import links from '../assets/links.json'
 @Component({
   selector: 'app-root',
@@ -6,6 +8,23 @@ import links from '../assets/links.json'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  
+  homeStatus: string;
+  //route: string;
+
   title = 'kneuroth';
-  links = links
+  links = links;
+
+  constructor (location: Location, router: Router ){
+    router.events.subscribe(val => {
+      if (location.path() != "") {
+        // this.route = location.path();
+        this.homeStatus = "home_empty"
+      } else {
+        // this.route = "/home";
+        this.homeStatus = "home_full";
+      }
+    });
+  }
+  
 }
