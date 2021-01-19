@@ -1,0 +1,19 @@
+{
+  "name": "kneuroth.github.io",
+  "version": "1.0.0",
+  "description": "Kelly's personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kneuroth/kneuroth.github.io.git"
+  },
+  "author": "Kelly Neuroth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kneuroth/kneuroth.github.io/issues"
+  },
+  "homepage": "https://github.com/kneuroth/kneuroth.github.io#readme"
+}
