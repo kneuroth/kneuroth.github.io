@@ -14,7 +14,6 @@ export class AppComponent {
 
   title = 'kneuroth';
   links = links;
-  tiles = ['red','orange','yellow','green','blue','indigo', 'violet']
 
   constructor (location: Location, router: Router ){
     router.events.subscribe(val => {
