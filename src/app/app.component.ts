@@ -10,18 +10,19 @@ import links from '../assets/links.json'
 export class AppComponent {
   
   homeStatus: string;
-  //route: string;
+  route: string;
 
   title = 'kneuroth';
   links = links;
+  tiles = ['red','orange','yellow','green','blue','indigo', 'violet']
 
   constructor (location: Location, router: Router ){
     router.events.subscribe(val => {
       if (location.path() != "") {
-        // this.route = location.path();
+        this.route = location.path();
         this.homeStatus = "home_empty"
       } else {
-        // this.route = "/home";
+        this.route = "/home";
         this.homeStatus = "home_full";
       }
     });

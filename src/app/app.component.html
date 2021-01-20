@@ -7,42 +7,12 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<style>
-  :host {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 14px;
-    color: #333;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 8px 0;
-  }
-
-  p {
-    margin: 0;
-  }
-
-  .spacer {
-    flex: 1;
-  }
- 
-
-</style>
 
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
   
-  <nav>
+  <nav class="toolbar-img">
     <a routerLink="/">
-      
     <img
       width="40"
       alt="Angular Logo"
@@ -50,39 +20,47 @@
     </a>
   </nav>
 
-  <nav>
-    <a routerLink="/about">About</a>
+  <nav class="toolbar-title">
+    <a routerLink="/about" >About</a>
   </nav>
+
+  <nav class="toolbar-title">
+    <a routerLink="/resume">Resume</a>
+  </nav>
+
   <div class="spacer"></div>
+
+  
   
 </div>
-
+<div class="card-container">
 
 
 <div class="content" role="main">
+
 
   <router-outlet></router-outlet>
 
   <!-- Icon Links -->
   <div class="card-container">
-    <a class="icon-link" href="{{links.github}}" target="_blank">
+    <a class="icon-link" href="{{links.github}}" target="_blank" title="github">
       <img
         src="../assets/github.png"
         />
     </a>
 
-    <a class="icon-link" href="{{links.linkedin}}" target="_blank">
+    <a class="icon-link" href="{{links.linkedin}}" target="_blank" title="linkedin">
       <img
         src="../assets/linkedin.png"
         />
     </a>
-    <a class="icon-link" href="{{links.instagram}}" target="_blank">
+    <a class="icon-link" href="{{links.instagram}}" target="_blank" title="instagram">
       <img
         src="../assets/instagram.png"
         />
     </a>
 
-    <a class="icon-link" href="{{links.sendEmail}}" target="_blank">
+    <a class="icon-link" href="{{links.sendEmail}}" target="_blank" title="email">
       <img
         src="../assets/email.png"
         />
