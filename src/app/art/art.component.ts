@@ -11,7 +11,6 @@ export class ArtComponent implements OnInit {
 
   onThumbnailClicked(event: KeyboardEvent, photo: string){
     this.currentPhoto = photo;
-    event.stopPropagation();
   }
   constructor() { }
 

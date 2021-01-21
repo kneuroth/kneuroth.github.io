@@ -1,0 +1,30 @@
+{
+    "grey":
+        {    
+            "--main-background": "#ffffff",
+            "--footer-background": "#808080",
+            "--footer-border": "#b5b5b5",
+            "--light-text": "#dedede",
+            "--dark-text": "#292929",
+            "--nav-background": "",
+            "--nav-text": "#808080",
+            "--nav-text-hover": "#7796d4",
+            "--card-background": "",
+            "--a-text": "#4066b3",
+            "--a-text-hover": "#1f4ba3"
+        },
+    "blue":
+        {    
+            "--main-background": "",
+            "--footer-background": "",
+            "--footer-border": "",
+            "--light-text": "",
+            "--dark-text": "",
+            "--nav-background": "",
+            "--nav-text": "",
+            "--nav-text-hover": "",
+            "--card-background": "",
+            "--a-text": "",
+            "--a-text-hover": ""
+        }
+}

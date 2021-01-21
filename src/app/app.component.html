@@ -15,6 +15,7 @@
     <li class="nav-item toolbar-img ">
         <a  tabindex="-1" routerLink="/" aria-disabled="true">
         <img
+          (click)="changeColor()"
           width="40"
           alt="Angular Logo"
           src="../assets/{{homeStatus}}.png"    />
@@ -43,56 +44,67 @@
 
   
 
-  <!-- Footer -->
-  
-  <footer class="relative-bottom pt-5 pb-3">
-
-    <!-- Icon Links -->
-      <div class="container-fluid">
-        <div class="d-flex row">
-
-          <div class="col">
-            <a href="{{links.github}}" target="_blank" title="github">
-              <img
-              class="icon-link"
-                src="../assets/github.png"
-                />
-            </a>
-          </div>
-
-          <div class="col">
-            <a href="{{links.linkedin}}" target="_blank" title="linkedin">
-              <img
-              class="icon-link"
-                src="../assets/linkedin.png"
-                />
-            </a>
-          </div>
-
-          <div class="col">
-            <a href="{{links.instagram}}" target="_blank" title="instagram">
-              <img
-                class="icon-link"
-                src="../assets/instagram.png"
-                />
-            </a>
-          </div>
-
-          <div class="col">
-            <a href="{{links.sendEmail}}" target="_blank" title="email">
-              <img
-              class="icon-link"
-                src="../assets/email.png"
-                />
-            </a>
-          </div>  
-
-      </div>
-    </div>
-  </footer>
+ 
 
 
 </div>
 
 
 
+ <!-- Footer -->
+  
+ <footer class="relative-bottom w-100 pt-5 pb-3 border-top">
+  <div class="container justify-content-center">
+
+    
+
+  <!-- Icon Links -->
+    <div class="mx-auto row w-50" style="width: 200px;">
+      
+      <p class="row justify-content-center mb-3 light-text">Contact me with these links</p>
+
+      <div class="row">
+
+        <div class="col">
+          <a class="justify-content-center" href="{{links.github}}" target="_blank" title="github">
+            <img
+            class="icon-link"
+              src="../assets/github.png"
+              />
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="justify-content-center" href="{{links.linkedin}}" target="_blank" title="linkedin">
+            <img
+            class="icon-link"
+              src="../assets/linkedin.png"
+              />
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="justify-content-center" href="{{links.instagram}}" target="_blank" title="instagram">
+            <img
+              class="icon-link"
+              src="../assets/instagram.png"
+              />
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="justify-content-center" href="{{links.sendEmail}}" target="_blank" title="email">
+            <img
+            class="icon-link"
+              src="../assets/email.png"
+              />
+          </a>
+        </div>  
+
+    </div>
+  </div>
+  <div class="w-100 row pt-4">
+    <p class="row justify-content-center mb-3 w-100 light-text" style="font-size:11px">All views expressed on this site are my own and do not represenet the opinions of any entity, company, person, animal, or metaphysical being whatsoever with which I have been, am now, or will be affilliated. </p>
+  </div>
+</div>
+</footer>

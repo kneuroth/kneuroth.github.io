@@ -1,4 +1,4 @@
-<div class="extreme-header"><p>Art</p></div>
+<div class="extreme-header dark-text"><p>Art</p></div>
 
 <div class="card mx-auto ">
     <img src="../../assets/art/{{currentPhoto}}.jpg" class="display-image img-fluid border border-3 ">
@@ -6,7 +6,7 @@
 
 <div class="card">
     <div class="d-flex flex-wrap justify-content-between flex-fill">
-        <div *ngFor="let photo of photos" (click)="onThumbnailClicked($event)" src="../../assets/art/photo.png" class="img-thumbnail" >
+        <div *ngFor="let photo of photos" src="../../assets/art/photo.png" class="img-thumbnail" >
             <img (click)="onThumbnailClicked($event, photo)" src="../../assets/art/{{photo}}.jpg" class="thumbnail-image" style="max-height:150px"/>
         </div>
     </div>

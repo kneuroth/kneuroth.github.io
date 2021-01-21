@@ -1,4 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --main-background: "";
+    --footer-background: "";
+    --footer-border: "";
+    --light-text: "";
+    --dark-text: "";
+    --nav-background: "";
+    --nav-text: "";
+    --nav-text-hover: "";
+    --card-background: "";
+    --a-text: "";
+    --a-text-hover: "";
+  }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: var(--main-background); }
+
+footer{
+    background-color: var(--footer-background) !important;
+    border-color: var(--footer-border) !important;
+}
+
+.light-text {
+   color: var(--light-text);
+}
+
+.dark-text {
+    color: var(--dark-text);
+}
+a {
+    color: var(--a-text)
+}
+a:hover {
+    color: var(--a-text-hover);
+}
