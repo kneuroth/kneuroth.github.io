@@ -13,7 +13,9 @@
             "--card-background": "",
             "--card-button": "#2ea4f2",
             "--card-button-border": "#000000",
-            "--card-button-text": "#061021",
+            "--card-button-text": "#ffffff",
+            "--inside-card": "#ffffff",
+            "--inside-card-border": "#000000",
             "--a-text": "#4066b3",
             "--a-text-hover": "#1f4ba3"
         },
@@ -33,6 +35,8 @@
             "--card-button": "#2ea4f2",
             "--card-button-border": "#225cc7",
             "--card-button-text": "#061021",
+            "--inside-card": "#fcd27e",
+            "--inside-card-border": "#5c501d",
             "--a-text": "#c98206",
             "--a-text-hover": "#e39102"
         }

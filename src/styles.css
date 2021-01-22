@@ -14,6 +14,8 @@
     --card-button: "";
     --card-button-border: "";
     --card-button-text: "";
+    --inside-card: "";
+    --inside-card-border: "";
     --a-text: "";
     --a-text-hover: "";
   }
@@ -56,6 +58,11 @@ footer{
 
 .card-button-text{
     color: var(--card-button-text) !important;
+}
+
+.inside-card{
+    background-color: var(--inside-card) !important;
+    border-color: var(--inside-card-border) !important;
 }
 
 .light-text {
