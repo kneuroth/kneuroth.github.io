@@ -6,19 +6,56 @@
     --light-text: "";
     --dark-text: "";
     --nav-background: "";
+    --nav-border: "";
     --nav-text: "";
     --nav-text-hover: "";
     --card-background: "";
+    --card-border: "";
+    --card-button: "";
+    --card-button-border: "";
+    --card-button-text: "";
     --a-text: "";
     --a-text-hover: "";
   }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: var(--main-background); }
+html, body { 
+    height: 100%;
+ }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-typography {
+    background-color: var(--main-background);
+}
 
 footer{
     background-color: var(--footer-background) !important;
     border-color: var(--footer-border) !important;
+}
+
+.navbar{ 
+    background-color: var(--nav-background) !important;
+    border-color: var(--nav-border) !important;
+}
+
+.nav-link {
+    color: var(--nav-text)
+}
+.nav-link:hover{
+    color: var(--nav-text-hover)
+}
+
+.card{
+    background-color: var(--card-background) !important;
+    border-color: var(--card-border) !important;
+}
+
+.card-button{
+    background-color: var(--card-button) !important;
+    border-color: var(--card-button-border) !important;
+}
+
+.card-button-text{
+    color: var(--card-button-text) !important;
 }
 
 .light-text {
@@ -28,9 +65,11 @@ footer{
 .dark-text {
     color: var(--dark-text);
 }
+
 a {
     color: var(--a-text)
 }
+
 a:hover {
     color: var(--a-text-hover);
 }
