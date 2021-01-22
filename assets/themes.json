@@ -1,0 +1,43 @@
+{
+    "grey":
+        {    
+            "--main-background": "#ffffff",
+            "--footer-background": "#808080",
+            "--footer-border": "#b5b5b5",
+            "--light-text": "#dedede",
+            "--dark-text": "#292929",
+            "--nav-background": "#636262",
+            "--nav-border": "#bdbbbb",
+            "--nav-text": "#f0f0f0",
+            "--nav-text-hover": "#ffffff",
+            "--card-background": "",
+            "--card-button": "#2ea4f2",
+            "--card-button-border": "#000000",
+            "--card-button-text": "#ffffff",
+            "--inside-card": "#ffffff",
+            "--inside-card-border": "#000000",
+            "--a-text": "#4066b3",
+            "--a-text-hover": "#1f4ba3"
+        },
+    "blue-orange":
+        {    
+            "--main-background": "#759ad1",
+            "--footer-background": "#04044d",
+            "--footer-border": "#1459a3",
+            "--light-text": "#dedede",
+            "--dark-text": "#292929",
+            "--nav-background": "#fcb000",
+            "--nav-border": "#ffc84a",
+            "--nav-text": "#8a5c00",
+            "--nav-text-hover": "#402b00",
+            "--card-background": "#ffce52",
+            "--card-border": "#f7d479",
+            "--card-button": "#2ea4f2",
+            "--card-button-border": "#225cc7",
+            "--card-button-text": "#061021",
+            "--inside-card": "#fcd27e",
+            "--inside-card-border": "#5c501d",
+            "--a-text": "#c98206",
+            "--a-text-hover": "#e39102"
+        }
+}
