@@ -24,3 +24,7 @@
     width: auto;
     height: auto;
 }
+
+.clicky{
+  cursor: pointer;
+}

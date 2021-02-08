@@ -6,8 +6,8 @@
 
 <div class="">
     <div class="d-flex flex-wrap justify-content-center flex-fill">
-        <a *ngFor="let photo of photos" src="../../assets/art/photo.png" class="img-thumbnail border border-dark" >
-            <img (click)="onThumbnailClicked($event, photo)" src="../../assets/art/{{photo}}.jpg" class="thumbnail-image rounded " style="max-height:150px;"/>
+        <a *ngFor="let photo of photos" src="../../assets/art/photo.png" class="img-thumbnail border border-dark clicky" >
+            <img (click)="onThumbnailClicked($event, photo)" src="../../assets/art/{{photo}}.jpg" href="#" class="thumbnail-image rounded " style="max-height:150px;"/>
         </a>
     </div>
 </div>
