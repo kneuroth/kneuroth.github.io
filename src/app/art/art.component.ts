@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./art.component.css']
 })
 export class ArtComponent implements OnInit {
-  currentPhoto = 'iron-man'
-  photos = ['iron-man', 'boxes', 'climbing-shoe', 'figures', 'hands', 'space-mountain', 'outside-1', 'outside-2',  'trash', 'watermelon']
+  currentPhoto = 'still-life-objects'
+  photos = ['still-life-objects', 'boxes', 'figures', 'hands', 'flower-pot', 'outside-2',  'trash', 'toilet-paper']
 
   onThumbnailClicked(event: KeyboardEvent, photo: string){
     this.currentPhoto = photo;
